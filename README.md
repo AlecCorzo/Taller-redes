@@ -38,7 +38,7 @@ services:
 
 levantamos nuestros servicios
 
-![imagen](images/imagen_1.png)
+![imagen](imagen_1.png)
 
 e intentamos hacer una peticion a la base de datos desde nuestro servidor
 
@@ -48,7 +48,7 @@ curl -X POST http://localhost:3000/drivers
 
 evidenciando que no se puede conectar
 
-![imagen](images/image_2.png)
+![imagen](image_2.png)
 
 ## 2.Docker compose con red definida
 
@@ -90,8 +90,8 @@ services:
       - app_network
 ```
 
-![imagen](images/image_3.png)
+![imagen](image_3.png)
 
 intentamos hacer una peticion a la base de datos desde nuestra API
 
-![imagen](images/image_4.png)
+![imagen](image_4.png)
